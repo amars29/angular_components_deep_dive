@@ -1,12 +1,10 @@
 <form>
-  <p>
-    <label>Title </label>
+  <app-control label="Title">
     <input type="text" name="title" />
-  </p>
-  <p>
-    <label>Request </label>
-    <input type="request" name="request" rows="3" />
-  </p>
+  </app-control>
+  <app-control label="Request">
+    <textarea type="request" name="request" rows="3"></textarea>
+  </app-control>
   <p>
     <button appButton>
       Submit
